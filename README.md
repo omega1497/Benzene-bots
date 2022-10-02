@@ -7,3 +7,8 @@ This is a simple simulation of a **Truck Platooning** System.
 ## Use Case Diagram
 
 ![alt text](https://github.com/omega1497/Benzene-bots/blob/master/System%20Diagrams/Use%20Case%20Diagram.png?raw=true)
+
+As illustrated by the use case diagram, A truck might join or leave the platoon, it then might get elected as the leader as well. Speed synchronization was another aspect that was kept in great consideration. The following sections emphasis more on how communication takes place or how speed synchronization was ensured.
+
+## Election Algorithm
+
