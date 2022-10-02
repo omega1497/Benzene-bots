@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Set Perams</title>
+  </head>
+  <body>
+  
+
+  <div class="content">
+    
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              
+              <h3 class="thin-heading mb-4" id="trucks">Trucks:</h3>
+              <h3 class="thin-heading mb-4" id="master-truck">Master Truck:</h3>
+
+              <form class="mb-5" action="" id="speed-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="speed" id="speed" placeholder="Enter speed">
+                  </div>
+				  <div class="col-md-6 form-group">
+					<input type="submit" value="Set Speed" class="btn btn-primary rounded-0 py-2 px-4">
+					<span class="submitting"></span>
+				  </div>
+                </div>
+              </form>
+              <form class="mb-5" action="" id="accel-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="accel" id="accel" placeholder="Enter acceleration">
+                  </div>
+				  <div class="col-md-6 form-group">
+					<input type="submit" value="Set Acceleration" class="btn btn-primary rounded-0 py-2 px-4">
+					<span class="submitting"></span>
+				  </div>
+                </div>
+              </form>
+	          <form class="mb-5" action="" id="brakes-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="brakes" id="brakes" placeholder="Enter True or False">
+                  </div>
+				  <div class="col-md-6 form-group">
+					<input type="submit" value="Set Brakes" class="btn btn-primary rounded-0 py-2 px-4">
+					<span class="submitting"></span>
+				  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    
+    
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+	<script src="js/mqttws31.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

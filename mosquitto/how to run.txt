@@ -1,0 +1,2 @@
+docker pull eclipse-mosquitto
+docker run -d -p 1883:1883 -p 8083:8083 --name=mosquitto_broker --net=mynet --ip=192.168.50.251 -v $PWD/mosquitto.conf:/mosquitto/config/mosquitto.conf eclipse-mosquitto

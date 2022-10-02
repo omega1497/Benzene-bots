@@ -1,0 +1,1 @@
+docker run -d --name=web -p 80:80 --net=mynet --ip=192.168.50.250 web
