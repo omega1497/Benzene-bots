@@ -12,3 +12,4 @@ As illustrated by the use case diagram, A truck might join or leave the platoon,
 
 ## Election Algorithm
 
+![alt text](https://github.com/omega1497/Benzene-bots/blob/master/System%20Diagrams/Use%20Case%20Diagram.png?raw=true)
