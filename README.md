@@ -12,4 +12,6 @@ As illustrated by the use case diagram, A truck might join or leave the platoon,
 
 ## Election Algorithm
 
-![alt text](https://github.com/omega1497/Benzene-bots/blob/master/System%20Diagrams/Use%20Case%20Diagram.png?raw=true)
+![alt text](https://github.com/omega1497/Benzene-bots/blob/master/System%20Diagrams/Election%20Algorithm.png?raw=true)
+
+Nearest Neighbor is used as the algorithm to elect the new platoon leader. Initially, the first truck forming the platoon is declared as the platoon leader. For instance, there is a platoon with 5 trucks (1,2,3,4,5) and they are arranged in ascending order with TRUCK 1 being the first truck and TRUCK 5 being the last one. Initially, Truck 1 is the platoon leader, when Truck 1 leaves, truck 2 gets to be the leader. This is due to the fact that Truck 2 was the nearest neighbor to Truck 1. Incase Truck 2 and Truck 3 leaves the platoon, Truck 4 becomes the leader. The illustration above gives a better representation of the entire scenario.
